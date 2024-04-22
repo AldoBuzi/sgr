@@ -20,24 +20,22 @@ To customize the function that calculates the banning time you can edit the foll
 `function_a = 3, function_base = 6, function_b = 0.3, function_offset = -2, max_matches = 12`.
 
 The default function looks like this:
-<html>
-<style>
-  .left, .right {width: 50%;
+<div id="center" >
+    <div style="width: 50%;
   height: 100%;
   display:inline-block;
   text-align: center;
-  vertical-align:middle;}
-
-</style>
-<div id="center" >
-    <div class="left">
+  vertical-align:middle;">
     <img src="./immagini/function.png" width="350" height="65" />
     </div><!-- comment to close gap
-    --><div class="right">
+    --><div style ="width: 50%;
+  height: 100%;
+  display:inline-block;
+  text-align: center;
+  vertical-align:middle;">
     <img src="./immagini/function_chart.png" width="150" height="275" />
     </div>
 </div>
-</html>
 
 By editing the parameters mentioned above within the file 
 `WatchMatches.cpp`, you can easily customize this function.
@@ -94,7 +92,7 @@ Note: When you want to save the file as bin, make sure to also set `IS_HUMAN_REA
  You can find all the changes in the following url:
  https://github.com/ntop/ipt_geofence/compare/main...AldoBuzi:ipt_geofence:main
 
-## Esempio di file json
+## File json example
     {
       "list" : 
       [

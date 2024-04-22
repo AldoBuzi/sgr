@@ -17,7 +17,7 @@ Note: if you want to save a human-readable file, you should also set `IS_HUMAN_R
 If you want to save it in binary format, then you can set `IS_HUMAN_READABLE` to `false` and specify the file as in the following example: `output.bin`.
 
 To customize the function that calculates the banning time you can edit the following parameters:
-`function_a = 3, function_base = 6, function_b = 0.3, function_offset = -2, max_matches = 12`.
+`function_a = 3, function_base = 6, function_b = 0.3, function_offset = -2, max_matches = 22`.
 
 The default function looks like this:
 <div id="center" >
